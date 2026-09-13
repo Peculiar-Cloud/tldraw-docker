@@ -34,8 +34,8 @@ LABEL org.opencontainers.image.title="TLDraw Docker" \
   org.opencontainers.image.description="Rootless-friendly non-root self-hosted tldraw collaboration server" \
   org.opencontainers.image.vendor="Peculiar Cloud" \
   org.opencontainers.image.url="https://peculiar.cloud" \
-  org.opencontainers.image.source="https://github.com/Peculiar-Cloud/TLDraw-docker" \
-  org.opencontainers.image.documentation="https://github.com/Peculiar-Cloud/TLDraw-docker#readme" \
+  org.opencontainers.image.source="https://github.com/Peculiar-Cloud/tldraw-docker" \
+  org.opencontainers.image.documentation="https://github.com/Peculiar-Cloud/tldraw-docker#readme" \
   org.opencontainers.image.licenses="MIT"
 
 ENV NODE_ENV=production \
