@@ -1,8 +1,8 @@
 # TLDraw Docker
 
-[![CI](https://github.com/Peculiar-Cloud/TLDraw-docker/actions/workflows/ci.yml/badge.svg)](https://github.com/Peculiar-Cloud/TLDraw-docker/actions/workflows/ci.yml)
-[![Container](https://github.com/Peculiar-Cloud/TLDraw-docker/actions/workflows/container.yml/badge.svg)](https://github.com/Peculiar-Cloud/TLDraw-docker/actions/workflows/container.yml)
-[![GHCR](https://img.shields.io/badge/image-ghcr.io%2Fpeculiar--cloud%2Ftldraw--docker-blue)](https://github.com/Peculiar-Cloud/TLDraw-docker/pkgs/container/tldraw-docker)
+[![CI](https://github.com/Peculiar-Cloud/tldraw-docker/actions/workflows/ci.yml/badge.svg)](https://github.com/Peculiar-Cloud/tldraw-docker/actions/workflows/ci.yml)
+[![Container](https://github.com/Peculiar-Cloud/tldraw-docker/actions/workflows/container.yml/badge.svg)](https://github.com/Peculiar-Cloud/tldraw-docker/actions/workflows/container.yml)
+[![GHCR](https://img.shields.io/badge/image-ghcr.io%2Fpeculiar--cloud%2Ftldraw--docker-blue)](https://github.com/Peculiar-Cloud/tldraw-docker/pkgs/container/tldraw-docker)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-1A1F6C.svg)](renovate.json)
 [![Peculiar Cloud](https://img.shields.io/badge/by-Peculiar%20Cloud-111827)](https://peculiar.cloud)
@@ -148,7 +148,7 @@ Release builds publish GitHub provenance attestations. After pulling an image, v
 
 ```sh
 gh attestation verify oci://ghcr.io/peculiar-cloud/tldraw-docker:latest \
-  -R Peculiar-Cloud/TLDraw-docker
+  -R Peculiar-Cloud/tldraw-docker
 ```
 
 ## Local Development

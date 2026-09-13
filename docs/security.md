@@ -37,7 +37,7 @@ Published images include OCI labels and GitHub provenance attestations. BuildKit
 
 ```sh
 gh attestation verify oci://ghcr.io/peculiar-cloud/tldraw-docker:latest \
-  -R Peculiar-Cloud/TLDraw-docker
+  -R Peculiar-Cloud/tldraw-docker
 ```
 
 ## Reporting
