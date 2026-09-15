@@ -51,7 +51,7 @@
       "schedule": ["every 4 weeks on tuesday"],
       "automerge": true,
       "labels": ["dependencies", "major", "breaking-change"],
-      "assignees": ["andrew-hesse"],
+      "assignees": ["peculiar-cloud-git"],
       "assignAutomerge": true,
       "prPriority": 10,
       "minimumReleaseAge": "14 days"
@@ -140,7 +140,7 @@
   "vulnerabilityAlerts": {
     "enabled": true,
     "labels": ["security", "urgent"],
-    "reviewers": ["andrew-hesse"],
+    "reviewers": ["peculiar-cloud-git"],
     "minimumReleaseAge": "0 days",
     "schedule": ["at any time"],
     "automerge": true,
