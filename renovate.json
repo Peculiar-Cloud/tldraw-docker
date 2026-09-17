@@ -131,7 +131,9 @@
     }
   ],
   "lockFileMaintenance": {
+    "description": "Lockfile maintenance has no release timestamp. Allow missing timestamps until renovatebot/renovate#45236 is fixed so the age check does not block automerge indefinitely; CI still gates merging.",
     "enabled": true,
+    "minimumReleaseAgeBehaviour": "timestamp-optional",
     "schedule": ["every 4 weeks on wednesday"],
     "commitMessageAction": "refresh",
     "automerge": true,
