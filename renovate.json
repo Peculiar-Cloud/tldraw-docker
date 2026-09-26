@@ -131,6 +131,8 @@
     }
   ],
   "lockFileMaintenance": {
+    "description": "Lockfile maintenance has no release timestamp. Allow missing timestamps until renovatebot/renovate#45236 is fixed; CI still gates merging.",
+    "minimumReleaseAgeBehaviour": "timestamp-optional",
     "enabled": true,
     "schedule": ["every 4 weeks on wednesday"],
     "commitMessageAction": "refresh",
@@ -143,8 +145,7 @@
     "reviewers": ["peculiar-cloud-git"],
     "minimumReleaseAge": "0 days",
     "schedule": ["at any time"],
-    "automerge": true,
-    "recreateWhen": "always"
+    "automerge": true
   },
   "postUpdateOptions": ["gomodTidy", "npmDedupe"],
   "rangeStrategy": "bump",
