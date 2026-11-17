@@ -1,1 +1,7 @@
-pnpm exec lint-staged
+# --no-stash: lint-staged's default backup is a git stash, and refs/stash is
+# shared by every worktree of a clone, so another worktree's `git stash pop`
+# could take it. lint-staged still hides the unstaged hunks of partially staged
+# files, in a patch under this worktree's own git dir, and restores them after
+# the tasks. Without the stash it cannot roll back on failure: fixes made by a
+# task before another task fails stay staged and the commit is aborted.
+pnpm exec lint-staged --no-stash
