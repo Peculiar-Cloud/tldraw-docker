@@ -5,6 +5,13 @@ allowBuilds:
   "@swc/core": true
   esbuild: true
 
+# The release-age gate: no version, transitive ones
+# included, installs until it has been public for 7 days. Set here, not only in a machine's
+# own pnpm config, so CI's lockfile check and Renovate's re-locks apply it too; pnpm's
+# default is one day. A same-day security fix needs a version-pinned
+# minimumReleaseAgeExclude entry in its PR.
+minimumReleaseAge: 10080
+
 minimumReleaseAgeExclude:
   - '@biomejs/biome@2.5.0'
   - '@biomejs/cli-darwin-arm64@2.5.0'
