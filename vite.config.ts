@@ -1,5 +1,5 @@
 import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import { configDefaults, defineConfig } from 'vitest/config'
 
 export default defineConfig({
   plugins: [react()],
@@ -17,5 +17,9 @@ export default defineConfig({
   build: {
     outDir: '../../dist/client',
     emptyOutDir: true,
+  },
+  test: {
+    // Nested git worktrees are full second checkouts; never collect their copy of the suite.
+    exclude: [...configDefaults.exclude, '.worktrees/**', '.claude/worktrees/**'],
   },
 })

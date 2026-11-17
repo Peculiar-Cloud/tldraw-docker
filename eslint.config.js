@@ -6,7 +6,8 @@ import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
   {
-    ignores: ['coverage/**', 'dist/**', 'node_modules/**'],
+    // Nested git worktrees are full second checkouts with their own config.
+    ignores: ['coverage/**', 'dist/**', 'node_modules/**', '.worktrees/**', '.claude/worktrees/**'],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

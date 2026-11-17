@@ -7,3 +7,8 @@ node_modules/
 !.env.example
 npm-debug.log*
 test-results/
+
+# Git worktrees nested inside the clone: ours in .worktrees/, Claude Code's in
+# .claude/worktrees/. Each is a full second checkout.
+.worktrees/
+.claude/worktrees/

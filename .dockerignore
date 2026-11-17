@@ -5,6 +5,8 @@ coverage
 data
 dist
 node_modules
+.worktrees
+.claude/worktrees
 npm-debug.log*
 *.local
 *.tgz
