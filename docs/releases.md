@@ -11,17 +11,17 @@ The container workflow publishes to GHCR when:
 
 ## Tags
 
-| Tag | Meaning |
-| --- | --- |
-| `latest` | Latest successful build with the newest tldraw SDK on `main`. |
-| `main` | Alias of `latest`. |
-| `sdk-X.Y.Z` | Build pinned to an exact tldraw SDK version. |
-| `sdk-X.Y` | Latest patch release in a tldraw SDK minor line. |
-| `sdk-X` | Latest minor release in a tldraw SDK major line. |
-| `vX.Y.Z` | Exact release version. |
-| `X.Y` | Latest patch in a minor release line. |
-| `X` | Latest minor in a major release line. |
-| `sha-<commit>` | Immutable commit build. |
+| Tag            | Meaning                                                       |
+| -------------- | ------------------------------------------------------------- |
+| `latest`       | Latest successful build with the newest tldraw SDK on `main`. |
+| `main`         | Alias of `latest`.                                            |
+| `sdk-X.Y.Z`    | Build pinned to an exact tldraw SDK version.                  |
+| `sdk-X.Y`      | Latest patch release in a tldraw SDK minor line.              |
+| `sdk-X`        | Latest minor release in a tldraw SDK major line.              |
+| `vX.Y.Z`       | Exact release version.                                        |
+| `X.Y`          | Latest patch in a minor release line.                         |
+| `X`            | Latest minor in a major release line.                         |
+| `sha-<commit>` | Immutable commit build.                                       |
 
 ## Dependency Updates
 

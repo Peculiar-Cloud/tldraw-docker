@@ -85,14 +85,14 @@ manifests referenced by active tags.
 
 ## Configuration
 
-| Variable | Default | Description |
-| --- | --- | --- |
-| `PORT` | `5858` | HTTP and websocket port. |
-| `DATA_DIR` | `/data` | Directory for rooms and uploaded assets. |
-| `TRUSTED_ORIGINS` | `*` | Comma-separated allowed browser origins. Use your HTTPS origin in production. |
-| `TLDRAW_LICENSE_KEY` | empty | Public tldraw SDK license key passed to the browser at runtime. |
-| `ENABLE_UNFURL` | `false` | Enables server-side bookmark metadata fetching. Keep disabled unless you understand SSRF exposure. |
-| `MAX_UPLOAD_BYTES` | `52428800` | Maximum upload size in bytes. |
+| Variable             | Default    | Description                                                                                        |
+| -------------------- | ---------- | -------------------------------------------------------------------------------------------------- |
+| `PORT`               | `5858`     | HTTP and websocket port.                                                                           |
+| `DATA_DIR`           | `/data`    | Directory for rooms and uploaded assets.                                                           |
+| `TRUSTED_ORIGINS`    | `*`        | Comma-separated allowed browser origins. Use your HTTPS origin in production.                      |
+| `TLDRAW_LICENSE_KEY` | empty      | Public tldraw SDK license key passed to the browser at runtime.                                    |
+| `ENABLE_UNFURL`      | `false`    | Enables server-side bookmark metadata fetching. Keep disabled unless you understand SSRF exposure. |
+| `MAX_UPLOAD_BYTES`   | `52428800` | Maximum upload size in bytes.                                                                      |
 
 ## tldraw License
 

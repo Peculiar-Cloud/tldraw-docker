@@ -4,12 +4,12 @@ TLDraw Docker is intentionally small: one Node.js process serves the web app, we
 
 ## Runtime Components
 
-| Component | Responsibility |
-| --- | --- |
-| Vite client | React UI and tldraw editor. |
-| Fastify server | HTTP, websocket upgrade, health endpoints, static files. |
-| tldraw sync | Room collaboration over websockets. |
-| Filesystem storage | Room snapshots and uploaded assets under `/data`. |
+| Component          | Responsibility                                           |
+| ------------------ | -------------------------------------------------------- |
+| Vite client        | React UI and tldraw editor.                              |
+| Fastify server     | HTTP, websocket upgrade, health endpoints, static files. |
+| tldraw sync        | Room collaboration over websockets.                      |
+| Filesystem storage | Room snapshots and uploaded assets under `/data`.        |
 
 ## Request Flow
 
