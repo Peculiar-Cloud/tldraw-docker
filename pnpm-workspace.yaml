@@ -11,14 +11,3 @@ allowBuilds:
 # default is one day. A same-day security fix needs a version-pinned
 # minimumReleaseAgeExclude entry in its PR.
 minimumReleaseAge: 10080
-
-minimumReleaseAgeExclude:
-  - '@biomejs/biome@2.5.0'
-  - '@biomejs/cli-darwin-arm64@2.5.0'
-  - '@biomejs/cli-darwin-x64@2.5.0'
-  - '@biomejs/cli-linux-arm64-musl@2.5.0'
-  - '@biomejs/cli-linux-arm64@2.5.0'
-  - '@biomejs/cli-linux-x64-musl@2.5.0'
-  - '@biomejs/cli-linux-x64@2.5.0'
-  - '@biomejs/cli-win32-arm64@2.5.0'
-  - '@biomejs/cli-win32-x64@2.5.0'
