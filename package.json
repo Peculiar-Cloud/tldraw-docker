@@ -5,9 +5,9 @@
   "description": "Rootless-friendly, non-root Docker image for a self-hosted tldraw collaboration server.",
   "type": "module",
   "license": "MIT",
-  "packageManager": "pnpm@12.13.0",
+  "packageManager": "pnpm@12.21.0",
   "engines": {
-    "node": ">=24.22.0"
+    "node": ">=24.22.3"
   },
   "scripts": {
     "build": "pnpm run build:server && pnpm run build:client",
@@ -26,38 +26,38 @@
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.server.json"
   },
   "dependencies": {
-    "@fastify/cors": "^11.3.1",
-    "@fastify/static": "^10.1.6",
-    "@fastify/websocket": "^11.3.4",
+    "@fastify/cors": "^11.4.3",
+    "@fastify/static": "^10.1.11",
+    "@fastify/websocket": "^11.3.7",
     "@tldraw/assets": "5.6.0",
     "@tldraw/sync": "5.6.0",
     "@tldraw/sync-core": "5.6.0",
-    "fastify": "^5.12.7",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "fastify": "^5.12.8",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "tldraw": "5.6.0",
     "unfurl.js": "^6.4.0",
-    "ws": "^8.22.0"
+    "ws": "^8.23.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
+    "@biomejs/biome": "2.6.7",
     "@eslint/js": "^10.0.1",
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@types/ws": "^8.18.2",
-    "@vitejs/plugin-react": "^6.1.2",
-    "concurrently": "^10.0.6",
-    "eslint": "^10.12.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "concurrently": "^10.0.7",
+    "eslint": "^10.15.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.71.2",
-    "vite": "^8.3.4",
-    "vitest": "^5.0.4"
+    "typescript-eslint": "^8.72.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
   }
 }
