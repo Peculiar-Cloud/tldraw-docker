@@ -16,7 +16,7 @@ const app = fastify({ logger: true, bodyLimit: config.maxUploadBytes })
 
 await roomManager.ensureStorage()
 
-app.register(websocketPlugin)
+await app.register(websocketPlugin)
 app.register(cors, {
   origin: (origin, callback) => {
     callback(null, isOriginAllowed(origin, config.trustedOrigins))

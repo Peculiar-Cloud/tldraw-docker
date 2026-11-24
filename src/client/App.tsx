@@ -115,9 +115,11 @@ function RoomCanvas({
   roomUrl: string
   onNewRoom: () => void
 }) {
+  // useSync reconnects whenever `assets` changes identity, so keep it stable across renders.
+  const assets = useMemo(() => createAssetStore(config), [config])
   const store = useSync({
     uri: roomUrl,
-    assets: createAssetStore(config),
+    assets,
   })
 
   return (
